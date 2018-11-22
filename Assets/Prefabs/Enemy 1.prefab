@@ -100,6 +100,9 @@ MonoBehaviour:
   projectileSpeed: -10
   minTimeBetweenShots: 0.2
   maxTimeBetweenShots: 3
+  explosionEffect: {fileID: 1635864905500680, guid: 054afd30b7867614c88649b2d018e563,
+    type: 2}
+  durationOfExplosion: 1
 --- !u!114 &114585826907465672
 MonoBehaviour:
   m_ObjectHideFlags: 1
