@@ -9,32 +9,32 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1035341138019342}
+  m_RootGameObject: {fileID: 1351245161344280}
   m_IsPrefabAsset: 1
---- !u!1 &1035341138019342
+--- !u!1 &1351245161344280
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 224319488666165392}
-  - component: {fileID: 223624765539787206}
-  - component: {fileID: 114251111475739174}
-  - component: {fileID: 114752925714467286}
+  - component: {fileID: 224228116779317382}
+  - component: {fileID: 223624589692712444}
+  - component: {fileID: 114463863143465938}
+  - component: {fileID: 114978188034754460}
   m_Layer: 0
-  m_Name: Canvas
+  m_Name: Start Menu Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114251111475739174
+--- !u!114 &114463863143465938
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1035341138019342}
+  m_GameObject: {fileID: 1351245161344280}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -50,12 +50,12 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
---- !u!114 &114752925714467286
+--- !u!114 &114978188034754460
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1035341138019342}
+  m_GameObject: {fileID: 1351245161344280}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
@@ -66,12 +66,12 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!223 &223624765539787206
+--- !u!223 &223624589692712444
 Canvas:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1035341138019342}
+  m_GameObject: {fileID: 1351245161344280}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -86,12 +86,12 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &224319488666165392
+--- !u!224 &224228116779317382
 RectTransform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1035341138019342}
+  m_GameObject: {fileID: 1351245161344280}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
