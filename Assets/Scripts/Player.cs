@@ -26,7 +26,7 @@ public class Player : MonoBehaviour {
     float xMax;
     float yMin;
     float yMax;
-    
+
     // Use this for initialization
     void Start () {
         SetUpMoveBoundaries();
@@ -104,4 +104,6 @@ public class Player : MonoBehaviour {
         AudioSource.PlayClipAtPoint(deathSound, Camera.main.transform.position, deathSoundVolume);
         FindObjectOfType<Level>().LoadGameOver();
     }
+
+    public int GetHealth() { return health; }
 }
